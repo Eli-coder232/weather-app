@@ -28,95 +28,105 @@
     <title>Best Weather Forecast</title>
   </head>
   <body>
-    <div class="container">
-      <form id="search-form">
-        <div class="input-group mb-3">
-          <span class="input-group-text" id="basic-addon1">
-            <i class="fa-solid fa-magnifying-glass glass-icon"></i>
-          </span>
-          <input
-            type="text"
-            id="search-city-input"
-            placeholder="Search for city"
-          />
-          <input type="submit" class="btn btn-light" value="Search" />
+    <div class="weather-app">
+      <div class="container">
+        <form id="search-form">
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">
+              <i class="fa-solid fa-magnifying-glass glass-icon"></i>
+            </span>
+            <input
+              type="text"
+              id="search-city-input"
+              placeholder="Search for city"
+            />
+            <input type="submit" class="btn btn-light" value="Search" />
+          </div>
+        </form>
+        <div class="row">
+          <div class="col-6">
+            <span class="current-city"> <h1>Cologne</h1></span>
+            <ul>
+              <li class="current-day weather-description">
+                Friday 20:00, Partly Clouded
+              </li>
+              <li class="more-weather-info">Humidity: 75%, Wind: 20 km/h</li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <span class="current-temperature">3</span>
+            <span class="unit">°C</span>
+            <i class="fa-solid fa-cloud cloud-icon-current"></i>
+          </div>
         </div>
-      </form>
-      <div class="row">
-        <div class="col-6">
-          <h1>Cologne</h1>
-          <ul>
-            <li>Friday 20:00, Partly Clouded</li>
-            <li>Humidity: 75%, Wind: 20 km/h</li>
-          </ul>
+        <div class="row">
+          <div class="col-2">
+            <div class="forecast-day">Sat</div>
+            <i class="fa-solid fa-cloud-showers-heavy cloud-rain-icon"></i>
+            <div class="forecast-temperature">
+              <span class="forecast-temperature-max">10°</span>
+              <span class="forecast-temperature-min">3°</span>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="forecast-day">Sun</div>
+            <i class="fa-solid fa-cloud-showers-heavy cloud-rain-icon"></i>
+            <div class="forecast-temperature">
+              <span class="forecast-temperature-max">10°</span>
+              <span class="forecast-temperature-min">3°</span>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="forecast-day">Mon</div>
+            <i class="fa-solid fa-cloud-showers-heavy cloud-rain-icon"></i>
+            <div class="forecast-temperature">
+              <span class="forecast-temperature-max">10°</span>
+              <span class="forecast-temperature-min">3°</span>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="forecast-day">Tue</div>
+            <i class="fa-solid fa-cloud-showers-heavy cloud-rain-icon"></i>
+            <div class="forecast-temperature">
+              <span class="forecast-temperature-max">10°</span>
+              <span class="forecast-temperature-min">3°</span>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="forecast-day">Wed</div>
+            <i class="fa-solid fa-cloud-showers-heavy cloud-rain-icon"></i>
+            <div class="forecast-temperature">
+              <span class="forecast-temperature-max">10°</span>
+              <span class="forecast-temperature-min">3°</span>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="forecast-day">Thu</div>
+            <i class="fa-solid fa-cloud-showers-heavy cloud-rain-icon"></i>
+            <div class="forecast-temperature">
+              <span class="forecast-temperature-max">10°</span>
+              <span class="forecast-temperature-min">3°</span>
+            </div>
+          </div>
         </div>
-        <div class="col-6">
-          <span class="current-temperature">3</span>
-          <span class="unit">°C</span>
-          <i class="fa-solid fa-cloud cloud-icon-current"></i>
-        </div>
+        <hr />
+        <footer>
+          <small>
+            This Weather App was coded by Elisabeth Iwanski and is open-sourced
+            on
+            <a
+              href="https://github.com/Eli-coder232/weather-app"
+              target="_blank"
+            >
+              GitHub</a
+            >
+            and hosted on
+            <a href="https://silly-lily-03ba25.netlify.app/" target="_blank">
+              Netlifly</a
+            >
+          </small>
+        </footer>
       </div>
-      <div class="row">
-        <div class="col-2">
-          <div class="forecast-day">Sat</div>
-          <i class="fa-solid fa-cloud-showers-heavy cloud-rain-icon"></i>
-          <div class="forecast-temperature">
-            <span class="forecast-temperature-max">10°</span>
-            <span class="forecast-temperature-min">3°</span>
-          </div>
-        </div>
-        <div class="col-2">
-          <div class="forecast-day">Sun</div>
-          <i class="fa-solid fa-cloud-showers-heavy cloud-rain-icon"></i>
-          <div class="forecast-temperature">
-            <span class="forecast-temperature-max">10°</span>
-            <span class="forecast-temperature-min">3°</span>
-          </div>
-        </div>
-        <div class="col-2">
-          <div class="forecast-day">Mon</div>
-          <i class="fa-solid fa-cloud-showers-heavy cloud-rain-icon"></i>
-          <div class="forecast-temperature">
-            <span class="forecast-temperature-max">10°</span>
-            <span class="forecast-temperature-min">3°</span>
-          </div>
-        </div>
-        <div class="col-2">
-          <div class="forecast-day">Tue</div>
-          <i class="fa-solid fa-cloud-showers-heavy cloud-rain-icon"></i>
-          <div class="forecast-temperature">
-            <span class="forecast-temperature-max">10°</span>
-            <span class="forecast-temperature-min">3°</span>
-          </div>
-        </div>
-        <div class="col-2">
-          <div class="forecast-day">Wed</div>
-          <i class="fa-solid fa-cloud-showers-heavy cloud-rain-icon"></i>
-          <div class="forecast-temperature">
-            <span class="forecast-temperature-max">10°</span>
-            <span class="forecast-temperature-min">3°</span>
-          </div>
-        </div>
-        <div class="col-2">
-          <div class="forecast-day">Thu</div>
-          <i class="fa-solid fa-cloud-showers-heavy cloud-rain-icon"></i>
-          <div class="forecast-temperature">
-            <span class="forecast-temperature-max">10°</span>
-            <span class="forecast-temperature-min">3°</span>
-          </div>
-        </div>
-      </div>
-      <hr />
-      <footer>
-        This Weather App was coded by Elisabeth Iwanski and is open-sourced on
-        <a href="https://github.com/Eli-coder232/weather-app" target="_blank">
-          GitHub</a
-        >
-        and hosted on
-        <a href="https://silly-lily-03ba25.netlify.app/" target="_blank">
-          Netlifly</a
-        >
-      </footer>
     </div>
     <script src="src/app.js"></script>
   </body>

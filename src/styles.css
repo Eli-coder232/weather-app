@@ -1,0 +1,129 @@
+.container {
+  font-family: "Roboto Mono", monospace;
+}
+
+.weather-app {
+  max-width: 650px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 3px solid #7393a7;
+  border-radius: 15px;
+}
+
+.current-city h1 {
+  color: #142d4c;
+  font-size: 30px;
+  text-transform: capitalize;
+  line-height: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  color: #385170;
+  font-size: 12px;
+}
+
+#date {
+  font-size: 12px;
+  color: #5585b5;
+  margin-bottom: 5px;
+}
+
+.current-weather {
+  font-size: 12px;
+  color: #5585b5;
+  text-transform: capitalize;
+}
+
+.current-temperature {
+  position: relative;
+  top: 10px;
+  color: #142d4c;
+  font-size: 26px;
+}
+
+#celsius {
+  font-size: 14px;
+  position: relative;
+  top: -25px;
+  left: 30px;
+}
+
+.cloud-icon-current {
+  font-size: 30px;
+  position: relative;
+  right: 60px;
+  top: 50px;
+  color: #bcbaba;
+  text-shadow: 2px 3px 5px rgb(39, 38, 38);
+}
+
+.precipitation p {
+  font-size: 14px;
+  padding-top: 22px;
+  margin: 0;
+  color: #142d4c;
+}
+
+.humidity p {
+  font-size: 14px;
+  color: #142d4c;
+  margin: 0;
+}
+
+.wind p {
+  font-size: 14px;
+  color: #142d4c;
+}
+
+.temperature-flow p {
+  padding: 25px 0 8px;
+  color: #142d4c;
+}
+
+.flow-chart p {
+  font-size: 12px;
+  color: #3e4a61;
+  padding: 0 0 30px;
+}
+
+.forecast-week h2 {
+  font-size: 24px;
+  color: #142d4c;
+  padding-top: 30px;
+}
+
+.day p {
+  font-size: 18px;
+  color: #385170;
+  padding-top: 10px;
+}
+
+.cloud-icon {
+  font-size: 20px;
+  position: relative;
+  top: 0;
+  left: 25px;
+  color: #bcbaba;
+  text-shadow: 2px 3px 5px rgb(39, 38, 38);
+}
+
+.cloud-rain-icon {
+  font-size: 20px;
+  position: relative;
+  top: 0;
+  left: 25px;
+  color: #a09e9e;
+  text-shadow: 2px 2px 2px rgb(39, 38, 38);
+}
+
+.temp-high-low p {
+  font-size: 16px;
+  padding: 20px;
+  color: #5585b5;
+}
